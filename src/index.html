@@ -8,16 +8,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- ---- MAIN CSS ---- -->
   <link rel="stylesheet" href="./dist/output.css">
-  <title>starter</title>
+  <title>ПОЧЕМУ section</title>
 </head>
 <body>
     <!-- ---- ПОЧЕМУ SECTION START ---- -->
 
-    <section id="pochemu">
+    <section id="pochemu" class="mb-[16px] bg-[#FF001D] px-[80px] py-[79px] rounded-lg flex items-center">
 
     <!-- ---- LEFT ---- -->
 
-      <div id="left" class="container bg-red-600 px-[80px] py-[79px] rounded-lg">
+      <div id="left" class="container">
         <h1 class="text-[56px] text-white pb-[48px]">
           Почему UCT?
         </h1>
@@ -28,7 +28,7 @@
           <button class="bg-white rounded-lg px-[24px] py-[12px]">
             Запись в сервис
           </button>
-          <button class="bg-red-600 rounded-lg px-[24px] py-[10px] border-2 border-y-gray-300">
+          <button class="bg-[#FF001D ] rounded-lg px-[24px] py-[10px] border-2 border-y-gray-300 text-white">
             Консультация
           </button>
         </div>
@@ -38,14 +38,35 @@
 
     <!-- ---- RIGHT ---- -->
 
-      <div id="right" class="">
+    <!-- ---- HALI TO'LIQ EMAS ---- -->
+
+      <div id="right" class="flex">
 
         <div class="top">
-            <div class="firts"></div>
-            <div class="second"></div>
+          <div class="first pb-[50px] right-[20px]">
+            <img src="./assets/images/car-wash.svg" alt="car-wash-icon">
+            <p class="pt-[30px] text-white text-bold">ОБОРУДОВАНИЕ</p>
+            <p class="pt-[25px] text-white text-sm">Автомойка на 2 поста и лучшее итальянское оборудование</p>
+          </div>
+          <div class="second">
+            <img src="./assets/images/lift.svg" alt="car-lift-icon">
+            <p class="pt-[30px] text-white text-bold">ПОДЪЕМНИКИ</p>
+            <p class="pt-[25px] text-white text-sm">Рассчитаны на 3,5 и 5 тонн. Поднимем любую машину!</p>
+          </div>
         </div>
 
-        <div class="bottom"></div>
+        <div class="bottom">
+          <div class="third pb-[50px]">
+            <img src="./assets/images/target.svg" alt="target-icon">
+            <p class="pt-[30px] text-white text-bold">ЦЕНЫ</p>
+            <p class="pt-[25px] text-white text-sm">Лучшие цены и качество на рынке. Довольным будет каждый!</p>
+          </div>
+          <div class="fourth">
+            <img src="./assets/images/spray-paint-gun.svg" alt="spray-paint-gun-icon">
+            <p class="pt-[30px] text-white text-bold">ПОКРАСКА</p>
+            <p class="pt-[25px] text-white text-sm">Покрасочная камера Spanesi и магнитный стапель.</p>
+          </div>
+        </div>
 
       </div>
 
